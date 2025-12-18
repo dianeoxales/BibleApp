@@ -1,0 +1,55 @@
+body {
+  font-family: "Georgia", serif;
+  background-color:linear-gradient(to bottom, #f7f4ef, #ede6dc);
+  text-align: center;
+  margin: 0;
+  padding: 60px 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #4b3f36;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #d8cfc4;
+  color: #4b3f36;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #cbbfb2;
+  transform: translateY(-2px);
+}
+
+/* Verse box */
+#verseBox {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Verse text */
+#verseText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Reference */
+#reference {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #6b5c4d;
+}
